@@ -10,4 +10,4 @@ def index(request: HttpRequest):
 
 
 def about(request: HttpRequest):
-    return HttpResponse("Rango says here is the about page. <a href='/rango/'>Index</a>")
+    return render(request, 'rango/about.html')

@@ -8,13 +8,15 @@
     </head>
     <body>
         <h1>Rango says...</h1>
+        here is the about page.
         <div>
             hey there partner! <br />
-            <strong>{{ boldmessage }}</strong><br />
+            <strong>This tutorial has been put together by Me</strong><br />
         </div>
         <div>
-            <a href="/rango/about/">About</a><br />
+            <a href="/rango/">Index</a><br />
             <img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
+            <img src="{{ MEDIA_URL }}cat.jpg" alt="Picture of a Cat" />
         </div>
     </body>
 </html>
